@@ -1,10 +1,18 @@
 # NovaLinha Oh-my-posh Theme
 A custom theme for beautiful customisation of your powershell. Built for oh-my-posh.
 
-by: Luis Rita
+## Table of Contents
+
+* [About](#about)
+* [Prerequisites](#prerequisites)
+* [Installation](#installation)
+
+## About
+Author: Luis Rita
+
 Based and inspired on the Agnoster theme from [oh-my-posh repo](https://github.com/JanDeDobbeleer/oh-my-posh)
 
-### Prerequisites
+## Prerequisites
 This theme works with [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh). 
 So you have to install oh-my-posh to Powershell:
 1. Install posh-git and oh-my-posh:
@@ -13,15 +21,21 @@ So you have to install oh-my-posh to Powershell:
   Install-Module posh-git -Scope CurrentUser
   Install-Module oh-my-posh -Scope CurrentUser
   ```
+  
+2. Add Profile file to your PowerShell if it doesnt yet exist,:
 
-2. Import and set the theme:
+```powershell
+if (!(Test-Path -Path $PROFILE )) { New-Item -Type File -Path $PROFILE -Force }
+notepad $PROFILE
+```
+  + Add this to your powershell profile to import the modules every time powershell runs:
 
-  ```powershell
-  Import-Module posh-git
-  Import-Module oh-my-posh
-  ```
+    ```powershell
+    Import-Module posh-git
+    Import-Module oh-my-posh
+    ```
 
-3 Make sure to also install version 2.0.0-beta1 of `PSReadLine`
+3. Make sure to also install version 2.0.0-beta1 of `PSReadLine`
 
   ```powershell 
   Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force
@@ -29,7 +43,7 @@ So you have to install oh-my-posh to Powershell:
     
   *For More info visit [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh).*
 
-###Installation
+## Installation
 
 1. Download this repository to your machine
   ```powershell 
