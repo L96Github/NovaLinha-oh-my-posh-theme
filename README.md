@@ -8,7 +8,7 @@ A custom theme for beautiful customisation of your powershell. Built for oh-my-p
 * [Installation](#installation)
 
 ## About
-Author: Luis Rita
+Author: [Luis Rita](https://github.com/L96Github)
 
 Based and inspired on the Agnoster theme from [oh-my-posh repo](https://github.com/JanDeDobbeleer/oh-my-posh)
 
