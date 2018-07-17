@@ -11,12 +11,13 @@ A custom theme for beautiful customisation of your powershell. Built for oh-my-p
 ## About
 
 Author: [Luis Rita](https://www.linkedin.com/in/luis-ivan-rita)
+[Luis Rita Github](https://github.com/L96Github)
 
 Based and inspired on the Agnoster theme from [oh-my-posh repo](https://github.com/JanDeDobbeleer/oh-my-posh)
 
 ## Prerequisites
 
-This theme works with [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh). 
+This theme works with [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh).
 So you have to install oh-my-posh to Powershell:
 
 1. Install posh-git and oh-my-posh:
