@@ -16,6 +16,23 @@ Author: [Luis Rita](https://www.linkedin.com/in/luis-ivan-rita)
 
 Based and inspired on the Agnoster theme from [oh-my-posh repo](https://github.com/JanDeDobbeleer/oh-my-posh)
 
+## Screenshots
+
+No Git:
+![Alt text](./screenshots/image1.png?raw=true "Optional Title")
+
+With Git synced:
+![Alt text](./screenshots/image2.png?raw=true "Optional Title")
+
+With Git ut not synced or commiting:
+![Alt text](./screenshots/image3.png?raw=true "Optional Title")
+
+Syntax error in command:
+![Alt text](./screenshots/image4.png?raw=true "Optional Title")
+
+Command and output:
+![Alt text](./screenshots/image5.png?raw=true "Optional Title")
+
 ## Prerequisites
 
 This theme works with [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh).
