@@ -44,6 +44,7 @@ So you have to install oh-my-posh to Powershell:
 
   Install-Module posh-git -Scope CurrentUser
   Install-Module oh-my-posh -Scope CurrentUser
+  Set-Theme NovaLinha
 
   ```
 
@@ -54,7 +55,7 @@ if (!(Test-Path -Path $PROFILE )) { New-Item -Type File -Path $PROFILE -Force }
 notepad $PROFILE
 ```
 
-  + Add this to your powershell profile to import the modules every time powershell runs:
+  + Add this code to your powershell profile to import the modules every time powershell runs:
 
     ```powershell
     Import-Module posh-git
@@ -77,7 +78,7 @@ notepad $PROFILE
   git clone https://github.com/L96Github/NovaLinha-oh-my-posh-theme.git
   ```
 
-2. Create the folder `C:\Users\<your username>\Documents\WindowsPowerShell\PoshThemes` (replace <your username> with your current username).
+2. Create the folder `C:\Users\<your username>\Documents\WindowsPowerShell\PoshThemes` (replace <your username> with your current username) and copy the `NovaLinha.psm1` file to this new folder.
 
   ```powershell
   mkdir C:\Users\<your username>\Documents\WindowsPowerShell\PoshThemes
