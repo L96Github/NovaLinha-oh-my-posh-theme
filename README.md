@@ -44,7 +44,7 @@ So you have to install oh-my-posh to Powershell:
 
   Install-Module posh-git -Scope CurrentUser
   Install-Module oh-my-posh -Scope CurrentUser
-  Set-Theme NovaLinha
+  
 
   ```
 
@@ -60,6 +60,7 @@ notepad $PROFILE
     ```powershell
     Import-Module posh-git
     Import-Module oh-my-posh
+    Set-Theme NovaLinha
     ```
 
 3. Make sure to also install version 2.0.0-beta1 of `PSReadLine`
